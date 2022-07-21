@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/12/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4e156c379d3ed1d1f41e56426fb31efa"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 390c1bbb-337b-43b0-a4d2-c7ac75bcfe68
+      X-Runtime:
+      - '0.002726'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"210","type":"item","attributes":{"name":"Item Aut Sit","description":"Rerum
+        eos sapiente repellendus cupiditate praesentium. Nulla sint quisquam corrupti
+        autem. Sapiente unde doloremque non et sunt ipsa.","unit_price":244.29,"merchant_id":12}},{"id":"211","type":"item","attributes":{"name":"Item
+        Commodi Eveniet","description":"Et exercitationem quas et expedita enim laborum.
+        Facere incidunt illum expedita praesentium. Sequi ut labore sint in.","unit_price":77.37,"merchant_id":12}},{"id":"212","type":"item","attributes":{"name":"Item
+        Architecto Vitae","description":"Rerum odit qui nostrum eveniet dicta in aut.
+        Velit excepturi odio sapiente perspiciatis in aliquam repudiandae. Est et
+        rerum.","unit_price":26.09,"merchant_id":12}},{"id":"213","type":"item","attributes":{"name":"Item
+        Iste Occaecati","description":"Voluptates ad cum modi mollitia nihil reiciendis.
+        Possimus est qui ut eos. Aspernatur ipsum quia delectus distinctio sed. Dolor
+        labore veritatis.","unit_price":407.11,"merchant_id":12}},{"id":"214","type":"item","attributes":{"name":"Item
+        Quidem Dolorum","description":"Laboriosam labore et minus. Et et repellendus
+        esse fuga. Iure inventore in corrupti et aut eveniet. Molestiae repudiandae
+        quia quo quo.","unit_price":966.54,"merchant_id":12}},{"id":"215","type":"item","attributes":{"name":"Item
+        Quo Soluta","description":"Aut adipisci et consequatur rem. Suscipit ut dolor
+        doloremque quam et laboriosam. Et ut id.","unit_price":552.92,"merchant_id":12}},{"id":"216","type":"item","attributes":{"name":"Item
+        Accusantium Veniam","description":"Aspernatur nihil illum velit eaque consequatur
+        quaerat ipsa. Velit voluptas officiis eaque minima fugit. Autem non et veritatis
+        distinctio officia vero.","unit_price":720.42,"merchant_id":12}},{"id":"217","type":"item","attributes":{"name":"Item
+        Quos Voluptas","description":"Enim velit quo quos occaecati quam corporis
+        aspernatur. Sit delectus nisi sunt. Fugit inventore autem et labore.","unit_price":603.33,"merchant_id":12}},{"id":"218","type":"item","attributes":{"name":"Item
+        Voluptate Omnis","description":"Debitis dolore mollitia quis tempore repellat
+        molestiae soluta. Tempore minima at. Nemo magnam modi et quis amet aut. Similique
+        adipisci aliquid tempore.","unit_price":462.58,"merchant_id":12}}]}'
+  recorded_at: Thu, 21 Jul 2022 02:41:50 GMT
+recorded_with: VCR 6.1.0

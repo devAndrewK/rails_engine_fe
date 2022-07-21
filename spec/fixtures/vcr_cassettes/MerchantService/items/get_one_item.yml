@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/232
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b684be2f995ee46f833d26f6a6dccb84"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a2bd1381-65f4-4a93-9c60-134f43c1048f
+      X-Runtime:
+      - '0.015858'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"232","type":"item","attributes":{"name":"Item Laborum
+        Velit","description":"Enim rerum aut sunt nemo. Ea et sequi. Laudantium assumenda
+        nihil non in occaecati iure voluptatibus. Incidunt doloribus eum est fugiat
+        tenetur laudantium. Error totam nesciunt doloribus id dolorum sunt.","unit_price":684.58,"merchant_id":15}}}'
+  recorded_at: Thu, 21 Jul 2022 02:41:50 GMT
+recorded_with: VCR 6.1.0

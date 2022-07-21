@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"34a836a4fe157ee9558422e48b2b5069"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 35f33e1f-805e-4b29-98ad-bbd76a9513fa
+      X-Runtime:
+      - '0.001688'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"10","type":"merchant","attributes":{"name":"Bechtelar,
+        Jones and Stokes"}}}'
+  recorded_at: Thu, 21 Jul 2022 02:41:50 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/10/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"bf2dba36c5dc2337b95fa079b3336fc2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c553158c-e2ab-4c16-a933-6bca0b3997f0
+      X-Runtime:
+      - '0.002267'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"201","type":"item","attributes":{"name":"Item Explicabo
+        Ipsam","description":"Est facilis sunt molestias nam praesentium aspernatur.
+        Reiciendis tenetur culpa at repellat. Non illum nesciunt. Sed vel et odio
+        sint. Nemo sequi minima inventore.","unit_price":774.09,"merchant_id":10}},{"id":"202","type":"item","attributes":{"name":"Item
+        Molestias Molestiae","description":"Doloremque qui recusandae modi unde. Vitae
+        consequatur commodi recusandae sunt occaecati et. Autem vel sit quos voluptatem
+        excepturi.","unit_price":814.97,"merchant_id":10}},{"id":"203","type":"item","attributes":{"name":"Item
+        At Qui","description":"Sit nemo porro dolorum quasi impedit harum. Rerum dolore
+        libero totam laudantium sed distinctio aut. Officiis maiores non dignissimos
+        et quae. Veritatis quo et consequatur. Quaerat nihil voluptas.","unit_price":994.65,"merchant_id":10}},{"id":"204","type":"item","attributes":{"name":"Item
+        Aliquam Et","description":"Provident laudantium quis. Eveniet eos eos. Eos
+        ea rerum laborum ex. Enim mollitia eligendi pariatur nihil non voluptatem
+        consectetur.","unit_price":217.39,"merchant_id":10}},{"id":"205","type":"item","attributes":{"name":"Item
+        Ad Vel","description":"Ea harum neque aperiam sint quos. Ipsum quia reiciendis
+        nisi et corrupti maiores. Ea ab corporis.","unit_price":989.47,"merchant_id":10}},{"id":"206","type":"item","attributes":{"name":"Item
+        Laboriosam Sequi","description":"Quasi id vel. Et non et asperiores ut tempora
+        aut odit. Et eum porro consequatur consequatur non autem. Fugit iure porro
+        tenetur exercitationem. Quod quos in quo ut consequatur delectus modi.","unit_price":786.12,"merchant_id":10}}]}'
+  recorded_at: Thu, 21 Jul 2022 02:41:50 GMT
+recorded_with: VCR 6.1.0
