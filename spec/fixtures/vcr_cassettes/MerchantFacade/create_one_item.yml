@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7642a791b0694ca2bea4c0cccd4bb919"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e1294444-b409-4c07-96cc-d0a0ff3863de
+      X-Runtime:
+      - '0.010468'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"13","type":"item","attributes":{"name":"Item Voluptatem
+        Sint","description":"Nostrum doloribus quia. Expedita vitae beatae cumque.
+        Aut ut illo aut eum.","unit_price":594.54,"merchant_id":1}}}'
+  recorded_at: Thu, 21 Jul 2022 02:41:50 GMT
+recorded_with: VCR 6.1.0
